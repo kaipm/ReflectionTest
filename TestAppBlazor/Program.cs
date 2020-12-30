@@ -33,6 +33,10 @@ namespace TestAppBlazor
                 Console.WriteLine($"Property: {prop.Name}");
             }
 
+            /* Output:
+                Property: Text
+                Property: Id
+            */
             Console.WriteLine("Done.");
             // --
 

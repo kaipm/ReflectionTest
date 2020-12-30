@@ -20,6 +20,11 @@ namespace ReflectionTest.TestApp
                 Console.WriteLine($"Property: {prop.Name}");
             }
 
+            /* Output:
+                Property: Text
+                Property: Id
+                Property: BaseText
+            */
             Console.WriteLine("Done.");
             // --
         }
